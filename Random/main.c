@@ -39,7 +39,7 @@ int main(
     return 0;
 }
 
-// bit 0 toggles - not random
+// note: bit 0 toggles - not random
 int Random()
 {
     gRandom=gRandom*1664525+1013904223;
