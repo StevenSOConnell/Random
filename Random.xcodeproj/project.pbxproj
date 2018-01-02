@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		CFA7DAD21F68110C00A87828 /* Random */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Random; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA7DAD51F68110D00A87828 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CFB2E7E71FFBF0C8007358CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				CFA7DAD51F68110D00A87828 /* main.c */,
+				CFB2E7E71FFBF0C8007358CB /* README.md */,
 			);
 			path = Random;
 			sourceTree = "<group>";
@@ -230,6 +232,8 @@
 		CFA7DADA1F68110D00A87828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_X86_VECTOR_INSTRUCTIONS = avx2;
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -237,6 +241,8 @@
 		CFA7DADB1F68110D00A87828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_X86_VECTOR_INSTRUCTIONS = avx2;
+				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
