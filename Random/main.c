@@ -40,11 +40,12 @@ int Random(void);
 void Count(int random);
 
 /**
- main
-
- @param argc number of arguments
- @param argv argument array
- @return error code
+ main entry function
+ @discussion	this is a multiple-line discussion that can last many lines
+ 				and much longer
+ @param			[in] argc integer number of arguments
+ @param			[in] argv const char * argument array
+ @return		integer error code
  */
 int main(
     int argc,
