@@ -19,10 +19,16 @@ Another paragraph.
 2. two
 3. three
 
+---
+
 `code`
 
 	indented code
 	some more
+	dgsdsdfg
+
+_italic_
+**bold**
 
 Regular paragraph.
 [link text](http://www.nesn.com)
